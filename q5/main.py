@@ -44,7 +44,7 @@ class ScraperXRT:
 		URL = 'http://solar.physics.montana.edu/HINODE/XRT/QL/syn_comp_fits/'
 		page = requests.get(URL)
 
-		soup = BeautifulSoup(open(page.content), 'html.parser')
+		soup = BeautifulSoup(page.content, 'html.parser')
 
 		table = soup.find('table')
 		i=0
