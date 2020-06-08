@@ -1,0 +1,10 @@
+﻿# Write the name of astronomical objects within quotes shown below
+
+i) "Poloris"
+ii) "Regulus"
+iii) "M29"
+iv) "M92"
+v) "Gamma Lyrae, Sulafat"
+vi) ""
+vii) "Saturn" & "Jupiter"
+
