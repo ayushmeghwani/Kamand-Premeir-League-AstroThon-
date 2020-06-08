@@ -83,7 +83,8 @@ class ScraperXRT:
 		urls = self.query()
 		downloads=[]
 		for url in urls:
-			name = url.split('/')[-1]
+			url2=url
+			name = url2.split('/')[-1]
 			#print url
 			r = requests.get(url, allow_redirects=True)
 			open(name, 'wb').write(r.content)
