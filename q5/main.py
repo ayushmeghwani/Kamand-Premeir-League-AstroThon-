@@ -80,7 +80,7 @@ class ScraperXRT:
 		-------
 		A `list` of strings for files.
 		'''
-		urls = query()
+		urls = self.query()
 		downloads=[]
 		for url in urls:
 			name = url.split('/')[-1]
